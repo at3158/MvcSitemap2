@@ -28,6 +28,13 @@
                 </ul>
                 @Html.Partial("_LoginPartial")
             </div>
+
+            <div class="navbar-collapse collapse">
+                @Html.MvcSiteMap().Menu("BootstrapMenuHelperModel", false)
+            </div>
+            <div class="navbar-collapse collapse">
+                @Html.MvcSiteMap().SiteMapPath("BootstrapSiteMapPathHelperModel")
+            </div>
         </div>
     </div>
     <div class="container body-content">
