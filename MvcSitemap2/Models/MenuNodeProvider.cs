@@ -1,4 +1,5 @@
-﻿using MvcSiteMapProvider;
+﻿using MvcSitemap2.Service;
+using MvcSiteMapProvider;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,17 +11,22 @@ namespace MvcSitemap2.Models
     {
         public MenuNodeProvider() : base() { }
 
+        
         public override IEnumerable<DynamicNode> GetDynamicNodeCollection(ISiteMapNode node)
         {
             var returnValue = new List<DynamicNode>();
 
             try
             {
-                using (var uow = new MyDBContext())
+                //using (var uow = new MyDBContext())
+                using (var menuService = new SmMenuService<SysMenu>(new MyDBContext()))
                 {
                     // 取出所有Menu項
-                    //var menus = menuService.GetAll().ToList();
-                    var menus = uow.SysMenus.ToList();
+                    //var menus = uow.SysMenus.ToList();
+                    
+                    // 取出所有Menu項
+                    var menus = menuService.GetAll().ToList();
+
 
                     foreach (var menu in menus)
                     {
@@ -32,7 +38,8 @@ namespace MvcSitemap2.Models
                             Action = menu.Action,
                             Controller = menu.Controller,
                             Area = menu.Area,
-                            Url = menu.Url
+                            Url = menu.Url,
+                            //Roles = roles
                         };
 
                         if (!string.IsNullOrWhiteSpace(menu.RouteValues))
