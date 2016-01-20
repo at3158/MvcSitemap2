@@ -9,7 +9,7 @@ using MvcSitemap2.Models;
 
 namespace MvcSitemap2.Service
 {
-    public class SmMenuService<T> where T : SysMenu
+    public class SmMenuService<T> : IDisposable where T : SysMenu
     {
         private MyDBContext _dbContext = new MyDBContext();
 
@@ -24,5 +24,8 @@ namespace MvcSitemap2.Service
             return entities;
         }
 
+        public void Dispose()
+        {
+        }
     }
 }
