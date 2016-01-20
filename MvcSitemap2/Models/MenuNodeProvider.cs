@@ -19,7 +19,7 @@ namespace MvcSitemap2.Models
             try
             {
                 //using (var uow = new MyDBContext())
-                using (var menuService = new SmMenuService<SysMenu>(new MyDBContext()))
+                using (var menuService = new SmMenuService<SysMenu>())
                 {
                     // 取出所有Menu項
                     //var menus = uow.SysMenus.ToList();
