@@ -255,12 +255,16 @@
     <Compile Include="Models\SessionBasedSiteMapCacheKeyGenerator.cs" />
     <Compile Include="Models\SmRole.cs" />
     <Compile Include="Models\SmRoleMenu.cs" />
+    <Compile Include="Models\SmRoleProvider.cs" />
     <Compile Include="Models\SmUser.cs" />
     <Compile Include="Models\SmUserRole.cs" />
     <Compile Include="Models\SysMenu.cs" />
     <Compile Include="Models\SysRole.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Service\SmMenuService.cs" />
+    <Compile Include="Service\SmRoleService.cs" />
+    <Compile Include="Service\SmUserRoleService.cs" />
+    <Compile Include="Service\SmUserService.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
