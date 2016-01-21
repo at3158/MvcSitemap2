@@ -13,6 +13,11 @@ namespace MvcSitemap2.Service
     {
         private MyDBContext _dbContext = new MyDBContext();
 
+        public SmUserService(MyDBContext _dbContext)
+        {
+            this._dbContext = _dbContext;
+        }
+
         public IQueryable<SmUser> GetAll()
         {
             return this._dbContext.SmUsers.AsQueryable();

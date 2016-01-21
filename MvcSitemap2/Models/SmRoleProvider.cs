@@ -35,7 +35,7 @@ namespace MvcSitemap2.Models
             }
             catch (Exception ex)
             {
-                LogUtility.Logger.Error(ex, "FindUsersInRole.");
+                //LogUtility.Logger.Error(ex, "FindUsersInRole.");
                 throw;
             }
         }

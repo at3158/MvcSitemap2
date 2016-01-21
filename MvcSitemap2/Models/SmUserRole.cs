@@ -16,7 +16,13 @@ namespace MvcSitemap2.Models
         [Key]
         [Column(Order = 2)]
         public int SmRoleId { get; set; }
+        //Foreign Key
+        [ForeignKey("SmUserId")]
+        public virtual SmUser SmUser { get; set; }
 
-       
+        //Foreign Key
+        [ForeignKey("SmRoleId")]
+        public virtual SmRole SmRole { get; set; }
+
     }
 }

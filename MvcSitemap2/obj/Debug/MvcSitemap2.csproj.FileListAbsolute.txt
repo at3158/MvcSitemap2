@@ -227,3 +227,4 @@ D:\Works\Source Control\GitHub\KarateJB\MvcSitemap2\MvcSitemap2\bin\zh-Hant\Micr
 D:\Works\Source Control\GitHub\KarateJB\MvcSitemap2\MvcSitemap2\bin\zh-Hant\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
 D:\Works\Source Control\GitHub\KarateJB\MvcSitemap2\MvcSitemap2\obj\Debug\MvcSitemap2.dll
 D:\Works\Source Control\GitHub\KarateJB\MvcSitemap2\MvcSitemap2\obj\Debug\MvcSitemap2.pdb
+C:\PROJECTS\MvcSiteMap2\MvcSitemap2\obj\Debug\MvcSitemap2.csprojResolveAssemblyReference.cache

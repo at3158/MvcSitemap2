@@ -11,6 +11,12 @@ namespace MvcSitemap2.Service
     public class SmUserRoleService<T> : IDisposable where T : SmUserRole
     {
         private MyDBContext _dbContext = new MyDBContext();
+
+        public SmUserRoleService(MyDBContext _dbContext)
+        {
+            this._dbContext = _dbContext;
+        }
+
         public IQueryable<SmUserRole> GetAll()
         {
             return this._dbContext.SmUserRoles.AsQueryable();
