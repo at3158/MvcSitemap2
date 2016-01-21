@@ -231,6 +231,9 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\SmRoleMenusController.cs" />
+    <Compile Include="Controllers\SmRolesController.cs" />
+    <Compile Include="Controllers\SmUserRolesController.cs" />
+    <Compile Include="Controllers\SmUsersController.cs" />
     <Compile Include="Controllers\SysMenusController.cs" />
     <Compile Include="Controllers\SysRolesController.cs" />
     <Compile Include="DI\CommonConventions.cs" />
@@ -250,7 +253,10 @@
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MenuNodeProvider.cs" />
     <Compile Include="Models\SessionBasedSiteMapCacheKeyGenerator.cs" />
+    <Compile Include="Models\SmRole.cs" />
     <Compile Include="Models\SmRoleMenu.cs" />
+    <Compile Include="Models\SmUser.cs" />
+    <Compile Include="Models\SmUserRole.cs" />
     <Compile Include="Models\SysMenu.cs" />
     <Compile Include="Models\SysRole.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -356,6 +362,21 @@
     <Content Include="Views\Shared\DisplayTemplates\CanonicalHelperModel.cshtml" />
     <Content Include="Views\Shared\DisplayTemplates\BootstrapMenuHelperModel.cshtml" />
     <Content Include="Views\Shared\DisplayTemplates\BootstrapSiteMapPathHelperModel.cshtml" />
+    <Content Include="Views\SmRoles\Create.cshtml" />
+    <Content Include="Views\SmRoles\Delete.cshtml" />
+    <Content Include="Views\SmRoles\Details.cshtml" />
+    <Content Include="Views\SmRoles\Edit.cshtml" />
+    <Content Include="Views\SmRoles\Index.cshtml" />
+    <Content Include="Views\SmUserRoles\Create.cshtml" />
+    <Content Include="Views\SmUserRoles\Delete.cshtml" />
+    <Content Include="Views\SmUserRoles\Details.cshtml" />
+    <Content Include="Views\SmUserRoles\Edit.cshtml" />
+    <Content Include="Views\SmUserRoles\Index.cshtml" />
+    <Content Include="Views\SmUsers\Create.cshtml" />
+    <Content Include="Views\SmUsers\Delete.cshtml" />
+    <Content Include="Views\SmUsers\Details.cshtml" />
+    <Content Include="Views\SmUsers\Edit.cshtml" />
+    <Content Include="Views\SmUsers\Index.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

@@ -112,7 +112,6 @@ C:\PROJECTS\MvcSitemap2\MvcSitemap2\bin\Microsoft.Practices.ServiceLocation.pdb
 C:\PROJECTS\MvcSitemap2\MvcSitemap2\bin\Microsoft.Practices.ServiceLocation.xml
 C:\PROJECTS\MvcSitemap2\MvcSitemap2\bin\Microsoft.Practices.Unity.xml
 C:\PROJECTS\MvcSitemap2\MvcSitemap2\bin\Microsoft.Practices.Unity.Configuration.xml
-C:\PROJECTS\MvcSitemap2\MvcSitemap2\obj\Debug\MvcSitemap2.csprojResolveAssemblyReference.cache
 D:\Works\Source Control\GitHub\KarateJB\MvcSitemap2\MvcSitemap2\obj\Debug\MvcSitemap2.csprojResolveAssemblyReference.cache
 D:\Works\Source Control\GitHub\KarateJB\MvcSitemap2\MvcSitemap2\bin\ApplicationInsights.config
 D:\Works\Source Control\GitHub\KarateJB\MvcSitemap2\MvcSitemap2\bin\roslyn\csc.exe

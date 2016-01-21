@@ -44,5 +44,11 @@ namespace MvcSitemap2.Models
         public System.Data.Entity.DbSet<MvcSitemap2.Models.SmRoleMenu> SmRoleMenus { get; set; }
 
         public System.Data.Entity.DbSet<MvcSitemap2.Models.SysRole> SysRoles { get; set; }
+
+        public System.Data.Entity.DbSet<MvcSitemap2.Models.SmRole> SmRoles { get; set; }
+
+        public System.Data.Entity.DbSet<MvcSitemap2.Models.SmUserRole> SmUserRoles { get; set; }
+
+        public System.Data.Entity.DbSet<MvcSitemap2.Models.SmUser> SmUsers { get; set; }
     }
  }

@@ -22,14 +22,12 @@ namespace MvcSitemap2.Models
                 using (var menuService = new SmMenuService<SysMenu>())
                 {
                     // 取出所有Menu項
-                    //var menus = uow.SysMenus.ToList();
-                    
-                    // 取出所有Menu項
                     var menus = menuService.GetAll().ToList();
 
 
                     foreach (var menu in menus)
                     {
+                        
                         DynamicNode dynamicNode = new DynamicNode()
                         {
                             Title = menu.Name,
